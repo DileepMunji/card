@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internship Programs</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <button class="mode-toggle" onclick="toggleMode()">🌙</button>
+
+    <h1 class="title">Internship Programs</h1>
+    <div class="container">
+        <div class="card card1">
+            <h3>Web Development Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend: -</li>
+                <li>Start date: 05/11/2023</li>
+            </ul>
+            <button class="btn" onclick="openModal('Web Development Internship Program')">View Details</button>
+        </div>
+
+        <div class="card card2">
+            <h3>App Development Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend: -</li>
+                <li>Start date: 05/11/2023</li>
+            </ul>
+            <button class="btn" onclick="openModal('App Development Internship Program')">View Details</button>
+        </div>
+
+        <div class="card card3">
+            <h3>Python Programming Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend: -</li>
+                <li>Start date: 05/11/2023</li>
+            </ul>
+            <button class="btn" onclick="openModal('Python Programming Internship Program')">View Details</button>
+        </div>
+
+        <div class="card card4">
+            <h3>Java Programming Internship Program</h3>
+            <ul>
+                <li>Duration: 1 month/ 2months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend: -</li>
+                <li>Start date: 05/11/2023</li>
+            </ul>
+            <button class="btn" onclick="openModal('Java Programming Internship Program')">View Details</button>
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p>This is a virtual internship opportunity. You'll work on real-world projects and receive a certificate upon successful completion.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
